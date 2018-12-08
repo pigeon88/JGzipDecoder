@@ -1,0 +1,2 @@
+javafxpackager -createjar -appclass JGzipDecoder -srcdir out/production/JGzipDecoder -outdir out/production -outfile JGzipDecoder.jar
+javafxpackager -deploy -native image -appclass JGzipDecoder -srcdir out/production -outdir out/exe -outfile JGzipDecoder -name JGzipDecoder
